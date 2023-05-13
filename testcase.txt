@@ -1,0 +1,21 @@
+group g1
+group g2
+draw
+shape s1 rectangle 10 10 20 20
+shape s2 rectangle 1 3 4 5
+shape s3 rectangle 117 1 0 10
+shape s4 rectangle 1 9 0 1
+shape s5 rectangle 10 10 20 2
+shape c1 triangle 1 1 1 1
+draw
+move s1 g1
+move s2 g1
+move s3 g1
+move s4 g1
+move s5 g1
+move c1 g2
+draw
+delete s5
+shape s6 triangle 1 3 4 1
+move s6 g1
+draw
